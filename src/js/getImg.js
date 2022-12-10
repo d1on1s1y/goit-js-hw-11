@@ -4,7 +4,7 @@ class imgApiService {
     constructor() {
         this.searchQuery = '';
         this.page = 1;
-        this.totalHints = null;
+        this.totalHits = null;
     }
 
     async getImage() {
@@ -47,7 +47,7 @@ class imgApiService {
     }
 
     decreaseTotalHits() {
-        this.totalHints = this.totalHints - 40;
+        this.totalHits = this.totalHits - 40;
     }
 }
 

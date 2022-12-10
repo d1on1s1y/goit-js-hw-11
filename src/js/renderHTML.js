@@ -1,4 +1,4 @@
-function renderImgInfo() {
+function renderImgInfo(cards) {
     return cards.map(({ webformatURL, largeImageURL, tags, likes, views, comments, downloads }) => {
     return `
     <div class="gallery_photo-card">
